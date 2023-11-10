@@ -1,0 +1,17 @@
+# Example YAML file
+
+database:
+  host: localhost
+  port: 5432
+  name: mydatabase
+  user: myuser
+
+settings:
+  debug: true
+  max_connections: 10
+
+users:
+  - name: John Doe
+    age: 30
+  - name: Jane Smith
+    age: 25
